@@ -1,5 +1,5 @@
 HTTP/1.1 200 OK
-Date: Thu, 14 Sep 2023 00:09:32 GMT
+Date: Thu, 14 Sep 2023 00:10:35 GMT
 Server: Apache/2.4.6 (CentOS)
 Connection: close
 Transfer-Encoding: chunked
@@ -16,13 +16,16 @@ Content-Type: text/html; charset=UTF-8
 
 
 <H3>Form Contents:</H3>
-<P>No form fields.
 <DL>
+<DT>X: <i>&lt;type 'instance'&gt;</i>
+<DD>MiniFieldStorage('X', 'Y')
 </DL>
 
 
 <H3>Shell Environment:</H3>
 <DL>
+<DT> CONTENT_LENGTH <DD> 3
+<DT> CONTENT_TYPE <DD> application/x-www-form-urlencoded
 <DT> CONTEXT_DOCUMENT_ROOT <DD> /compsci/webdocs/hindle1/web_docs
 <DT> CONTEXT_PREFIX <DD> /~hindle1
 <DT> DOCUMENT_ROOT <DD> /var/www/html
@@ -34,8 +37,8 @@ Content-Type: text/html; charset=UTF-8
 <DT> PATH <DD> /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin
 <DT> QUERY_STRING <DD> 
 <DT> REMOTE_ADDR <DD> 142.244.5.12
-<DT> REMOTE_PORT <DD> 50288
-<DT> REQUEST_METHOD <DD> GET
+<DT> REMOTE_PORT <DD> 50290
+<DT> REQUEST_METHOD <DD> POST
 <DT> REQUEST_SCHEME <DD> https
 <DT> REQUEST_URI <DD> /~hindle1/1.py
 <DT> SCRIPT_FILENAME <DD> /compsci/webdocs/hindle1/web_docs/1.py
@@ -49,7 +52,7 @@ Content-Type: text/html; charset=UTF-8
 
 <DT> SERVER_SOFTWARE <DD> Apache/2.4.6 (CentOS)
 <DT> SSL_TLS_SNI <DD> webdocs.cs.ualberta.ca
-<DT> UNIQUE_ID <DD> ZQJPPFgkaMHfYMjwGRn1KwAAAAk
+<DT> UNIQUE_ID <DD> ZQJPe8idLdX@w8WbvaTgYwAAAAI
 </DL>
 
 
@@ -125,6 +128,8 @@ environment as well.  Here are some common variable names:
 
 <H3>Shell Environment:</H3>
 <DL>
+<DT> CONTENT_LENGTH <DD> 3
+<DT> CONTENT_TYPE <DD> application/x-www-form-urlencoded
 <DT> CONTEXT_DOCUMENT_ROOT <DD> /compsci/webdocs/hindle1/web_docs
 <DT> CONTEXT_PREFIX <DD> /~hindle1
 <DT> DOCUMENT_ROOT <DD> /var/www/html
@@ -136,8 +141,8 @@ environment as well.  Here are some common variable names:
 <DT> PATH <DD> /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin
 <DT> QUERY_STRING <DD> 
 <DT> REMOTE_ADDR <DD> 142.244.5.12
-<DT> REMOTE_PORT <DD> 50288
-<DT> REQUEST_METHOD <DD> GET
+<DT> REMOTE_PORT <DD> 50290
+<DT> REQUEST_METHOD <DD> POST
 <DT> REQUEST_SCHEME <DD> https
 <DT> REQUEST_URI <DD> /~hindle1/1.py
 <DT> SCRIPT_FILENAME <DD> /compsci/webdocs/hindle1/web_docs/1.py
@@ -151,6 +156,6 @@ environment as well.  Here are some common variable names:
 
 <DT> SERVER_SOFTWARE <DD> Apache/2.4.6 (CentOS)
 <DT> SSL_TLS_SNI <DD> webdocs.cs.ualberta.ca
-<DT> UNIQUE_ID <DD> ZQJPPFgkaMHfYMjwGRn1KwAAAAk
+<DT> UNIQUE_ID <DD> ZQJPe8idLdX@w8WbvaTgYwAAAAI
 </DL>
 
