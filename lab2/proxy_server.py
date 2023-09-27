@@ -38,6 +38,7 @@ def handle_connection(conn, addr):
 def start_server():
     with socket.socket(socket.AF_INET,socket.SOCK_STREAM) as server_socket:
         server_socket.bind((PROXY_SERVER_HOST,PROXY_SERVER_PORT))
+        server_socket.setsockopt(socket.SOL_SOCKET, socket.SO_REUSEADDR,1)
         server_socket.listen(2)
         conn, addr = server_socket.accept()
         handle_connection(conn, addr)
